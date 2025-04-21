@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img class="logo-currecy-img" src="assets/currency-img.png" alt="logo-currency-img">
+    <main>
+        <section class="currency-convert-container">
+            <label class="assistent-text">
+                Convert <b>from:</b>
+            </label>
+            <select class="currency-select-from">
+                <option>RS$ Real</option>
+                <option>US$ Dollar</option>
+            </select>
+            <label class="assistent-text">
+                Convert <b>To:</b>
+            </label>
+            <select class="currency-select-to">
+                <option value="dollar">US$ Dollar</option>
+                <option value="real">RS$ Real</option>
+                <option value="euro">€ Euro</option>
+            </select>
+            <label class="assistent-text">
+                Value:
+            </label>
+            <input class="value-input" type="number" placeholder="Type number here">
+            <button class="convert-button">Convert</button>
+        </section>
+        <section class="currency-converted-container">
+            <img class="img-currency-covert" src="assets/brasil 2.png" alt="img-from-covert">
+            <p class="assistent-text">Real</p>
+            <p class="convert-value">R$ 0,00</p>
+            <p class="arrow">↓</p>
+            <img class="img-currency-converted" src="assets/estados-unidos.png" alt="img-to-convert">
+            <p class="assistent-text converted-text">Dollar</p>
+            <p class="converted-value">US$ 0,00</p>
+        </section>
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

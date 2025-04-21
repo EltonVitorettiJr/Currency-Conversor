@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: #12a29b;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: #f4f4f4;
+    height: 100%;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0% 37%;
+    min-width: 200px;
+}
+
+.arrow {
+    font-size: xx-large;
+    color: #12a29b;
+    margin-bottom: 10px;
+}
+
+.convert-button {
+    height: 48px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background: #12a29b;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFF;
+}
+
+.convert-button:hover {
+    opacity: 0.8;
+}
+
+.convert-button:active {
+    opacity: 0.6;
+}
+
+.assistent-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+
+}
+
+.convert-value, .converted-value {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.currency-convert-container {
+    width: 100%;
+}
+
+.currency-converted-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0 0 0;
+    border: 1px solid #12a29b;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.logo-currecy-img {
+    display: block;
+    margin: 0% auto;
+    width: 20%;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.currency-select-from, .currency-select-to, .value-input {
+    height: 48px;
+    width: 100%;
+    appearance: none;
+    margin: 0 0 20px 0;
+    outline: none;
+    border-radius: 5px;
+    border: #BBBBBB;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #555555;
+    padding-left: 15px;
+}
+
+.value-input {
+    font-weight: 400;
+}
