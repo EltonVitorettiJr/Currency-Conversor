@@ -37,6 +37,28 @@ function changeCurrency() {
 
         convertedText.innerHTML = `Euro`
     }
+
+    if (currencySelectedTo == `libra`) {
+        convertValue.innerHTML = new Intl.NumberFormat(`en-GB`, {
+            style: `currency`,
+            currency: `GBP`
+        }).format(valueInput / euroToday)
+
+        logoConvertedCurrency.src = `./assets/libra.png`
+
+        convertedText.innerHTML = `Libra`
+    }
+
+    if (currencySelectedTo == `bitcoin`) {
+        convertValue.innerHTML = new Intl.NumberFormat(`en`, {
+            style: `currency`,
+            currency: `BTC`
+        }).format(valueInput / euroToday)
+
+        logoConvertedCurrency.src = `./assets/bitcoin.png`
+
+        convertedText.innerHTML = `Bitcoin`
+    }
 }
 
 currencySelectTo.addEventListener(`change`, changeCurrency)
