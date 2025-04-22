@@ -21,8 +21,8 @@ main {
     height: 100%;
     border-radius: 20px;
     padding: 30px;
-    margin: 0% 37%;
-    min-width: 200px;
+    margin: 0% 32%;
+    min-width: 240px;
 }
 
 .arrow {
@@ -108,4 +108,16 @@ main {
 
 .value-input {
     font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        margin: 0% 10%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        margin: 2%;
+    }
 }
