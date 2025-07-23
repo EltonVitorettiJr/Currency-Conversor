@@ -18,7 +18,6 @@
 ## :currency_exchange: Sobre o Projeto
 
 Esse é um projeto de conversão de moedas internacionais, permitindo uma visão ampla sobre o valor do dinheiro em cada local do mundo. A aplicação conta com as seguintes moedas: Real, Dólar Americano, Euro, Libra Britânica e BitCoin.
-É importante ressaltar que esta aplicação não atualiza os valores com o passar do tempo.
 <br>
 
 ## :computer: Tecnologias Usadas
